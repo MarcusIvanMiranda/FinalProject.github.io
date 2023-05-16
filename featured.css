@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: mv boli;
+}
+body{
+    background-image: linear-gradient(to bottom, #fae123, #f68202, #643210);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.main-container{
+    height: auto;
+}
+header{
+    color:black;
+    text-align: center;
+    margin: 10px;
+}
+nav{
+    display:flex;
+    width:100%;
+    flex-wrap: wrap;
+    height:50px;
+    background-color: rgba(0, 0, 0, 1);
+    z-index: 1;
+}
+main{
+    margin-top: 30px;
+    margin: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    padding:10px;
+    background-color: #f68202;
+    box-shadow: 2px 2px black;
+    height: 1100px;
+}
+section{
+    margin: 20px;
+    margin-top: 20px;
+    margin-left: 40px;
+    display: inline-block;
+}
+section img{
+    display: inline-block;
+    width: 300px;
+
+}
+article{
+    display: inline-block;
+    color: white;
+    width:700px;
+    position: relative;
+    bottom:50px;
+    left:30px;
+}
+h4{
+    font-size: 50px;
+}
+article button{
+    margin-top: 20px;
+    color: #643210;
+    background-color: white;
+    font-size: large;
+    font-weight: bolder;
+    width: 30px;
+    border-style: solid;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .5s ;
+}
+article button:hover{
+    background-color: #f68202;
+    border-color: white;
+    color: white;
+}
+p{
+    display:inline-block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.pricey p{
+    background-color: white;
+    width:50px;
+    color:#643210;
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+}
+img{
+    transition: .5s ;
+}
+img:hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+}

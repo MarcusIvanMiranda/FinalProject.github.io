@@ -1,0 +1,61 @@
+*{
+    font-family: mv boli;
+    
+}
+body{
+    background-image: linear-gradient(to bottom, #fae123, #f68202, #643210);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height:100vh;
+
+}
+.home-container{
+    text-align: center;
+}
+section{
+    margin-top: 50px;
+    background-image: linear-gradient(to bottom, #f68202, #bd4b00, #643210);
+    color:white;
+    padding: 2em ;
+    box-shadow: 5px 10px rgb(59, 57, 57);
+    border-radius: 20px;
+    border-color: rgb(53, 51, 51);
+    border-style: solid;
+}
+article{
+    margin-top: 30px;
+}
+.ed1{
+    color: black;
+}
+img{
+    margin:15px;
+    width:100px;
+    border-radius: 20px;
+}
+svg{
+    width:30px;
+    margin: 10px;
+}
+
+.doc1{
+    width: 150px;
+    height: 250px;
+    background: white;
+    margin: 10px;
+    display: inline-block;
+    margin-left: 40px;
+}
+h1.wilkam{
+    color:#bd4b00;
+    text-shadow: 1px 1px black ;
+}
+header{
+    display:inline-block;
+    padding:2px;
+    border-radius: 10px;
+    text-shadow: 1.5px 1px white;
+}
+.ico{
+    margin-left: 600px;
+}

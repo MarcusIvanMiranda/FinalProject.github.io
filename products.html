@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Minute Burger</title>
+    <link rel="stylesheet" href="products.css">
+    <link rel="stylesheet" href="menubox.css">
+</head>
+
+<!--Home html-->
+<body>
+
+    <div class="main-container">
+
+        <header>
+            <h1>Minute's Products</h1>
+        </header>
+        <nav>
+            <a href="#sulit"><button class="start" >Sulit</button></a>
+            <a href="#chicken"><button >Chicken</button></a>
+            <a href="#hotdog"><button>Hotdog</button></a>
+            <a href="#beverages"><button>Beverages</button></a>
+        </nav>
+        <section id="sulit"></section>
+        <main>
+            <br><br>
+
+
+    <!--index html-->
+    <img src="menu.png" id="menuIcon">
+        <div class="menu-box" id="menuBox">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="featured.html">Featured Product</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </div>
+
+    <div class="main-pro">
+
+        <h1 class="ser">Sulit</h1>
+        
+        <div class="pro">
+            <section>
+                <img src="minute burger menu/Minute Burger.jpg" class="pics">
+                <article>
+                    <h4>Buy 1 Take 1 Minute Burger</h4>
+                    <p>Classic taste of beef burger patty with signature Minute Burger super dressing on a soft burger bun</p>
+                    <div class="pricey">
+                        <button onclick="Minus()" id="no">-</button>
+                        <p id="item">1</p>
+                        <button onclick="Add()">+</button>
+                        <h5 id="price">Price: 42 PHP</h5>
+                    </div>
+                </article>
+            </section>
+        </div><!--product 1-->
+
+        <div class="pro">
+            <section>
+                <img src="minute burger menu/Cheesy Burger.jpg" >
+                <article>
+                    <h4>Buy 1 Take 1 Cheesy Burger</h4>
+                    <p>Beef patty topped with special cheese with ham flavor, Buy One Take One. Cheesy burger is a cheesier classic sandwich.</p>
+                    <div class="pricey">
+                        <button onclick="MinusC()" id="noC">-</button>
+                        <p id="itemC">1</p>
+                        <button onclick="AddC()">+</button>
+                        <h5 id="priceC">Price: 52 PHP</h5>
+                    </div>
+                </article>
+            </section>
+        </div><!--product 2-->
+
+        <div class="pro">
+            <section>
+                <img src="minute burger menu/Double Minute Burger.jpg">
+                <article>
+                    <h4>Buy 1 Take 1 Double Minute Burger</h4>
+                    <p>Savor with double signature beef patty with our own Minute Burger super dressing on a soft burger bun.</p>
+                    <div class="pricey">
+                        <button onclick="MinusDM()" id="noDM">-</button>
+                        <p id="itemDM">1</p>
+                        <button onclick="AddDM()">+</button>
+                        <h5 id="priceDM">Price: 63 PHP</h5>
+                    </div>
+                </article>
+            </section>
+        </div><!--product 3-->
+
+        <div class="pro">
+            <section>
+                <img src="minute burger menu/Double Cheesyburger.jpg">
+                <article>
+                    <h4>Buy 1 Take 1 Double Cheesy Burger</h4>
+                    <p>Savor with double signature beef patty with our own Minute Burger super dressing on a soft burger bun.</p>
+                    <div class="pricey">
+                        <button onclick="MinusDC()" id="noDC">-</button>
+                        <p id="itemDC">1</p>
+                        <button onclick="AddDC()">+</button>
+                        <h5 id="priceDC">Price: 79 PHP</h5>
+                    </div>
+                    
+                    
+                </article>
+            </section>
+        </div><!--product 4-->
+
+        <br id="chicken">
+        <br><br><br><br>
+
+        <h1 class="ser">Chicken</h1>
+
+        <div class="pro">
+            <section>
+                <img src="minute burger menu/Chickentime.jpg">
+                <article>
+                    <h4>Buy 1 Take 1 Chicken Time</h4>
+                    <p>Mouth-watering chicken patty with signature chicken dressing.</p>
+                    <div class="pricey">
+                        <button onclick="MinusCT()" id="noCT">-</button>
+                        <p id="itemCT">1</p>
+                        <button onclick="AddCT()">+</button>
+                        <h5 id="priceCT">Price: 50 PHP</h5>
+                    </div>
+                </article>
+            </section>
+        </div><!--product 5-->
+
+        <div class="pro">
+            <section>
+                <img src="minute burger menu/Double Chickentime.jpg">
+                <article>
+                    <h4>Buy 1 Take 1 Double Chicken Time</h4>
+                    <p>Have it with double prime taste of signature chicken patty topped with chicken dressing.</p>
+                    <div class="pricey">
+                        <button onclick="MinusDCT()" id="noDCT">-</button>
+                        <p id="itemDCT">1</p>
+                        <button onclick="AddDCT()">+</button>
+                        <h5 id="priceDCT">Price: 69 PHP</h5>
+                    </div>
+                </article>
+            </section>
+
+        </div><!--product 6-->
+
+        <br id="hotdog">
+        <br><br><br><br>
+
+        <h1 class="ser">Hotdog</h1>
+
+        <div class="pro">
+            <section>
+                <img src="minute burger menu/Cheesydog.jpg">
+                <article>
+                    <h4>Buy 1 Take 1 Cheesy Dog</h4>
+                    <p>Tender flavor with our signature hotdog in between of soft and delicious hotdog buns.</p>
+                    <div class="pricey">
+                        <button onclick="MinusCD()" id="noCD">-</button>
+                        <p id="itemCD">1</p>
+                        <button onclick="AddCD()">+</button>
+                        <h5 id="priceCD">Price: 50 PHP</h5>
+                    </div>  
+                </article>
+            </section>
+        </div><!--product 7-->
+
+        <div class="pro">
+            <section>
+                <img src="minute burger menu/Chili Con Carne.jpg">
+                <article class="chilicon">
+                    <h4 class="chili">Buy 1 Take 1 Chili Con Carne Cheese Franks</h4>
+                    <p>Loaded with Mexican-flavor of chili con carne with our 7 inches big time franks well made with chili cheese sauce, all between our signature hotdog buns.</p>
+                    <div class="pricey">
+                        <button onclick="MinusCCC()" id="noCCC">-</button>
+                        <p id="itemCCC">1</p>
+                        <button onclick="AddCCC()">+</button>
+                        <h5 id="priceCCC">Price: 94 PHP</h5>
+                    </div>
+                </article>
+            </section>
+        </div><!--product 8-->
+
+        <div class="pro">
+            <section>
+                <img src="minute burger menu/French Onion Franks.webp">
+                <article>
+                    <h4>Buy 1 Take 1 French Onion Franks</h4>
+                    <p>French Onion Hotdog Sandwich with onion and dried herb leaves, all between our signature brioche hotdog buns.</p>
+                    <div class="pricey">
+                        <button onclick="MinusFF()" id="noFF">-</button>
+                        <p id="itemFF">1</p>
+                        <button onclick="AddFF()">+</button>
+                        <h5 id="priceFF">Price: 92 PHP</h5>
+                    </div>
+                </article>
+            </section>
+        </div><!--product 9-->
+        
+        <br id="beverages">
+        <br><br><br><br>
+
+        <h1 class="ser">Beverages</h1>
+
+        <div class="pro">
+            <section>
+                <img src="minute burger menu/MB_Milk_Tea_Delivery_Integration-removebg-preview-fotor-bg-remover-2023051013543.png">
+                <article>
+                    <h4>Krazy Wintermelon Milk Tea</h4>
+                    <p>12oz Wintermelon Milk Tea</p>
+                    <br><br><br>
+                    <div class="pricey">
+                        <button onclick="MinusMT()" id="noMT">-</button>
+                        <p id="itemMT">1</p>
+                        <button onclick="AddMT()">+</button>
+                        <h5 id="priceMT">Price: 28 PHP</h5>
+                    </div>
+                </article>
+            </section>
+        </div><!--product 10-->
+        <div class="pro">
+            <section>
+                <img src="minute burger menu/Calamantea.jpg">
+                <article>
+                    <h4>Calamantea</h4>
+                    <p>Fulfill your thirst with our signature calamansi and iced tea in one.</p>
+                    <br><br>
+                    <div class="pricey">
+                        <button onclick="MinusCTea()" id="noCTea">-</button>
+                        <p id="itemCTea">1</p>
+                        <button onclick="AddCTea()">+</button>
+                        <h5 id="priceCTea">Price: 24 PHP</h5>
+                    </div>
+                </article>
+            </section>
+        </div><!--product 11-->
+
+        <div class="pro">
+            <section>
+                <img src="minute burger menu/Hot Choco.jpg">
+                <article>
+                    <h4>Hot Choco</h4>
+                    <p>Creamy Cocoa taste of our classic hot choco.</p>
+                    <br><br>
+                    <div class="pricey">
+                        <button onclick="MinusHC()" id="noHC">-</button>
+                        <p id="itemHC">1</p>
+                        <button onclick="AddHC()">+</button>
+                        <h5 id="priceHC">Price: 13 PHP</h5>
+                    </div>
+                </article>
+            </section>
+        </div><!--product 12-->
+
+        <div class="pro">
+            <section>
+                <img src="minute burger menu/Hot Choco.jpg">
+                <article>
+                    <h4>Hot Coffee</h4>
+                    <p>Minute Burger Hot Coffee.</p>
+                    <br><br><br>
+                    <div class="pricey">
+                        <button onclick="MinusHCF()" id="noHCF">-</button>
+                        <p id="itemHCF">1</p>
+                        <button onclick="AddHCF()">+</button>
+                        <h5 id="priceHCF">Price: 13 PHP</h5>
+                    </div>
+                </article>
+            </section>
+        </div><!--product 13-->
+
+        <div class="pro" id="">
+            <section>
+                <img src="minute burger menu/Iced Mocha.webp">
+                <article class="chilicon">
+                    <h4>Iced Mocha</h4>
+                    <p>Sip a taste of new Minute Burger's Iced Mocha that will surely satisfy your cravings and make you feel refreshed.</p>
+                    <br><br>
+                    <div class="pricey">
+                        <button onclick="MinusHCF()" id="noHCF">-</button>
+                        <p id="itemHCF">1</p>
+                        <button onclick="AddHCF()">+</button>
+                        <h5 id="priceHCF">Price: 13 PHP</h5>
+                    </div>
+                </article>
+            </section>
+        </div><!--product 14-->
+
+    </div><!--main pro-->
+
+    </div>
+
+    <script src="index.js"></script>
+    <script src="products.js"></script>
+</body>
+</html>

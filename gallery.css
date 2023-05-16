@@ -1,0 +1,42 @@
+.pic{
+    width: 300px;
+    height: 400px;
+    display: block;
+}
+.infos{
+    width: 700px;
+    position: relative;
+}
+.da{
+    width: auto;
+    display: flex;
+    position: absolute;
+}
+.iv{
+    width: auto;
+    display: flex;
+    position: absolute;
+    margin-top: 450px;
+}
+.ke{
+    width: auto;
+    display: flex;
+    position: absolute;
+    margin-top: 900px;
+}
+.er{
+    width: auto;
+    display: flex;
+    position: absolute;
+    margin-top: 450px;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: mv boli;
+    font-weight: bolder;
+    color: rgb(255, 0, 0);
+}
+a:hover{
+    color: chocolate;
+}

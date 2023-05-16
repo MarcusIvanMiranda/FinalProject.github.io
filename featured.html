@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Minute Burger</title>
+    <link rel="stylesheet" href="featured.css">
+    <link rel="stylesheet" href="menubox.css">
+</head>
+
+<!--Home html-->
+<body>
+    <div class="main-container">
+        <header>
+            <h1>Minute's Featured Products</h1>
+        </header>
+        <nav class="nav">
+            Featured Products
+        </nav>
+        <main class="sub-container">
+            
+            <section>
+                <img src="minute burger menu/Bacon Cheese Burger.jpg">
+                <article>
+                    <h4>Bacon Cheese Burger</h4>
+                    <br>
+                    <p>Irresistible Bacon Cheese Burger with Double Bacon in premium Brioche Bun with real butter and eggs.</p>
+                    <div class="pricey">
+                        <button onclick="MinusBCB()" id="noBCB">-</button>
+                        <p id="itemBCB">1</p>
+                        <button onclick="AddBCB()">+</button>
+                        <h5 id="priceBCB">Price: 96 PHP</h5>
+                    </div>
+                </article>
+            </section>
+            <br><hr><br>
+
+            <section>
+                <img src="minute burger menu/Black Pepper Burger.png">
+                <article>
+                    <h4>Black Pepper Burger</h4>
+                    <br>
+                    <p>Savory grilled taste of spiced premium beef in premium Brioche Bun with real butter and eggs.</p>
+                    <br><br>
+                    <div class="pricey">
+                        <button onclick="MinusBPB()" id="noBPB">-</button>
+                        <p id="itemBPB">1</p>
+                        <button onclick="AddBPB()">+</button>
+                        <h5 id="priceBPB">Price: 89 PHP</h5>
+                    </div>
+                </article>
+            </section>
+            <br><hr><br>
+
+            <section>
+                <img src="minute burger menu/Veggie.jpg">
+                <article>
+                    <h4>50/50 Veggie Chicken Burger</h4>
+                    <br>
+                    <p>Savor the rich taste of 50% premium chicken and 50% blend of fresh vegetables, with honey mustard sauce topped with shredded cabbage, all between our signature oatmeal-sprinkled brioche buns.</p>
+                    <div class="pricey">
+                        <button onclick="MinusVC()" id="noVC">-</button>
+                        <p id="itemVC">1</p>
+                        <button onclick="AddVC()">+</button>
+                        <h5 id="priceVC">Price: 86 PHP</h5>
+                    </div>
+                </article>
+            </section>
+            <br><hr><br>
+            
+        </main>
+        
+    </div>
+
+
+    <!--index html-->
+    <img src="menu.png" id="menuIcon">
+        <div class="menu-box" id="menuBox">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="featured.html">Featured Product</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </div>
+    <script src="index.js"></script>
+    <script src="products.js"></script>
+</body>
+</html>
